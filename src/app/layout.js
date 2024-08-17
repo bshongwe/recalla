@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Recalla App",
+  title: "Create Recalla App",
   description: "An app that lets users create flashcards to streamline their study process",
 };
 
