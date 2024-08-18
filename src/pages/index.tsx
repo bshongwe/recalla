@@ -43,23 +43,23 @@ import {
   FiTrendingUp,
   FiUserPlus,
 } from "react-icons/fi";
-import { Features } from "components/features";
-import { BackgroundGradient } from "components/gradients/background-gradient";
-import { Faq } from "components/faq";
-import { Pricing } from "components/pricing/pricing";
+import { Features } from "../components/features";
+import { BackgroundGradient } from "../components/gradients/background-gradient";
+import { Faq } from "../components/faq";
+import { Pricing } from "../components/pricing/pricing";
 
-import { ButtonLink } from "components/button-link/button-link";
-import { Testimonial, Testimonials } from "components/testimonials";
+import { ButtonLink } from "../components/button-link/button-link";
+import { Testimonial, Testimonials } from "../components/testimonials";
 
-import faq from "data/faq";
-import testimonials from "data/testimonials";
-import pricing from "data/pricing";
+import faq from "../data/faq";
+import testimonials from "../data/testimonials";
+import pricing from "../data/pricing";
 
 import {
   Highlights,
   HighlightsItem,
   HighlightsTestimonialItem,
-} from "components/highlights";
+} from "../components/highlights";
 
 const Home: NextPage = () => {
   return (
@@ -120,7 +120,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="_blank"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -156,7 +156,7 @@ const HeroSection: React.FC = () => {
                   layout="fixed"
                   width={1200}
                   height={762}
-                  alt="Screenshot of a ListPage in Saas UI Pro"
+                  alt="Screenshot of a ListPage in Recalla UI Pro"
                   quality="75"
                   priority
                 />

@@ -4,7 +4,7 @@ import {
   SectionProps,
   SectionTitle,
   SectionTitleProps,
-} from 'components/section'
+} from '../../components/section'
 import { Testimonial } from './testimonial'
 
 export interface TestimonialsProps
