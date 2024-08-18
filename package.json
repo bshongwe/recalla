@@ -1,0 +1,40 @@
+{
+  "name": "recalla",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "clsx": "^2.1.1",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@fontsource/inter": "^5.0.20",
+    "@mui/material": "^5.16.7",
+    "framer-motion": "^11.3.12",
+    "lucide-react": "^0.414.0",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-lottie": "^1.2.4",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "react-icons": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.4.0",
+    "@types/react": "18.3.3",
+    "@svgr/webpack": "^8.1.0",
+    "@types/react-dom": "^18",
+    "@types/react-lottie": "^1.2.10",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4"
+  }
+}
