@@ -4,7 +4,7 @@ import { theme } from '@saas-ui/react'
 import components from './components'
 import { fontSizes } from './foundations/typography'
 
-import '@fontsource/inter/variable.css'
+import '@fontsource/inter'
 
 const styles = {
   global: (props: any) => ({
