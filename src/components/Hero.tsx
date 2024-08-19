@@ -3,6 +3,7 @@ import CursorImage from '../assets/images/cursor.png'
 import ArrowIcon from '../assets/icons/arrow-w.svg'
 import MessageImage from '../assets/images/message.png'
 import Image from 'next/image';
+import Link from 'next/link';
 import {motion} from 'framer-motion'
 import { AnimatedGradientTextDemo } from './animatedtext';
 
@@ -36,12 +37,14 @@ export const Hero = () => {
       <p className='text-xl text-center mt-8 max-w-md'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod dicta, nisi autem dignissimos consequatur? Unde saepe eius nam. Minima at quaerat non quae qui consequatur hic nam neque earum.</p>
       </div>
       <div className="flex justify-center mt-8">
-      <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Sign up</button>
+        <Link href={"/sign-up"}>
+          <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Sign up</button>
+        </Link>
       </div>
 
 
     </div>
-    
+
 
     </div>
   )
