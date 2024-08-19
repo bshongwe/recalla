@@ -25,8 +25,9 @@ export const Navbar = () => {
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Features</a>
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Updates</a>
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Help</a>
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Customers</a>
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Testimonials</a>
         <button className='bg-white py-2 px-4 rounded-lg text-black'>Sign In</button>
+        <button className='bg-white py-2 px-4 rounded-lg text-black'>Signup</button>
       </nav>
 
       </div>

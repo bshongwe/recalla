@@ -16,7 +16,7 @@ export const Hero = () => {
       </div>
       <div className="flex justify-center mt-8 ">
       <div className="inline-flex relative">
-      <h1 className='text-7xl sm:text-9xl font-bold tracking-tightner text-center inline-flex'>Recalla UI <br/> is more</h1>
+      <h1 className='text-7xl sm:text-9xl font-bold tracking-tightner text-center inline-flex'>Recalla <br/> AI</h1>
       <motion.div className='absolute right-[478px] top-[108px] hidden sm:inline'
       drag
       dragSnapToOrigin
@@ -33,7 +33,7 @@ export const Hero = () => {
       </div>
       </div>
       <div className="flex justify-center">
-      <p className='text-xl text-center mt-8 max-w-md'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quod dicta, nisi autem dignissimos consequatur? Unde saepe eius nam. Minima at quaerat non quae qui consequatur hic nam neque earum.</p>
+      <p className='text-xl text-center mt-8 max-w-md'>Transform your learning using our AI-powered flashcards. Tailored to help you master any set of concepts effortlessly.</p>
       </div>
       <div className="flex justify-center mt-8">
       <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Sign up</button>
