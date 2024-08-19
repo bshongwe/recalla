@@ -1,5 +1,5 @@
 
-import LogoImage from '../assets/icons/logo.svg';
+import LogoImage from '../assets/icons/saasfly-logo.svg';
 import MenuIcon from '../assets/icons/menu.svg';
 
 
