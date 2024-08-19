@@ -36,7 +36,7 @@ export const Hero = () => {
       <p className='text-xl text-center mt-8 max-w-md'>Accelerate your learning using our AI-powered flashcards. Tailored to help you master any set of concepts effortlessly.</p>
       </div>
       <div className="flex justify-center mt-8">
-      <button className='bg-white text-black py-3 px-5 rounded-lg font-medium'>Sign up</button>
+      <button className='bg-black text-white py-3 px-5 rounded-lg font-medium'>Get Started</button>
       </div>
 
 

@@ -19,7 +19,7 @@ const opacity = useTransform(scrollYProgress, [0, 1], [.3,1]);
       <div className="container">
         <h2 className="text-center text-5xl font-bold tracking-tighter">Intuative interface</h2>
         <div className='max-w-xl mx-auto'>
-        <p className="text-xl text-white/70 text-center mt-5 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt minima odio ea debitis quisquam nobis. Eius fugit ut dolorem delectus.</p>
+        <p className="text-xl text-white/70 text-center mt-5 ">Our team of devs employs the best of the best tech stacks for seamless UI/UX and hi-tech API experience.</p>
         </div>
         <div className="flex justify-center">
         <motion.div
