@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import LogoImage from '../assets/icons/logo.svg';
+import LogoImage from '../assets/icons/saasfly-logo.svg';
 import MenuIcon from '../assets/icons/menu.svg';
 
 
@@ -25,18 +25,21 @@ export const Navbar = () => {
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Features</a>
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Updates</a>
         <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Help</a>
-        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Customers</a>
-
+        <a href="#" className='text-opacity-60 text-white hover:text-opacity-100 transition'>Testimonials</a>
         <Link href={"/sign-in"}>
           <button className='bg-white py-2 px-4 rounded-lg text-black'>Sign In</button>
+        </Link>
+        <Link href={"/sign-up"}>
+          <button className='bg-white py-2 px-4 rounded-lg text-black'>Signup</button>
         </Link>
       </nav>
 
       </div>
 
 
+
     </div>
-      </div>
+    </div>
     </div>
   )
 };
