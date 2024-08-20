@@ -4,6 +4,7 @@ import EmojiImage from '../assets/images/emojistar.png'
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { use, useRef } from 'react';
+import Waitlist from './Waitlist.jsx';
 
 export const CallToAction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -32,7 +33,7 @@ export const CallToAction = () => {
         <p className="text-xl text-white/70  mt-5">Join hundreds of users that are anticipating being part of Recalla Pro set for release soon. Are you <i>flashcard game?</i></p>
         <form className="mt-10 flex flex-col gap-2.5 max-w-sm mx-auto sm:flex-row">
           <input type="email" placeholder="shongwe.bhekizwe@gmail.com" className="h-12 bg-white/20 rounded-lg px-5 font-medium placeholder:text-[#9CA3AF] sm:flex-1"/>
-          <button className="bg-white text-black h-12 rounded-lg px-5">Join Waitlist</button>
+          <button className="bg-white text-black h-12 rounded-lg px-5" onClick={handleOpenModal}>Join Waitlist</button>
         </form>
       </div>
 
