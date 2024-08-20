@@ -5,6 +5,7 @@ import MessageImage from '../assets/images/message.png'
 import Image from 'next/image';
 import {motion} from 'framer-motion'
 import { AnimatedGradientTextDemo } from './animatedtext';
+import Link from 'next/link';
 
 export const Hero = () => {
   return (
@@ -36,7 +37,11 @@ export const Hero = () => {
       <p className='text-xl text-center mt-8 max-w-md'>Accelerate your learning using our AI-powered flashcards. Tailored to help you master any set of concepts effortlessly.</p>
       </div>
       <div className="flex justify-center mt-8">
-      <button className='bg-black text-white py-3 px-5 rounded-lg font-medium'>Get Started</button>
+      <Link href="/sign-in" passHref>
+        <button className='bg-black text-white py-3 px-5 rounded-lg font-medium'>
+          Get Started
+        </button>
+      </Link>
       </div>
 
 
