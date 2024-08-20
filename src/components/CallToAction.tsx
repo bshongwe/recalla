@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { FaChevronRight } from 'react-icons/fa';
 import { use, useRef } from 'react';
-import Waitlist from './Waitlist.jsx';
+import Waitlist from './Waitlist.tsx';
 
 export const CallToAction = () => {
   const containerRef = useRef<HTMLDivElement>(null);
