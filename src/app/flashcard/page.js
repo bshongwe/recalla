@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import FlashcardsPage from "../components/flashcardsPage";
+import FlashcardsPage from "../components/FlashcardsPage";
 import { Button, Typography, TextField, Container, Box } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
