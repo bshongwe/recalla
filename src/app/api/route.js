@@ -3,8 +3,7 @@ import { NextResponse } from "next/server";
 const { default: OpenAI } = require("openai");
 
 const openai = new OpenAI({
-  apiKey:
-    "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",
+  apiKey: process.env.NEXT_PUBLIC_OPENROUTER_API_KEY,
   baseURL: "https://openrouter.ai/api/v1",
 });
 
@@ -25,7 +24,7 @@ export async function POST(req) {
         ]
       }`;
       console.log("Prompt created for topic:", topic);
-  
+
       const response = await openai.chat.completions.create({
         model: "google/gemma-2-9b-it:free",
         messages: [
@@ -33,28 +32,28 @@ export async function POST(req) {
           { role: "system", content: prompt },
         ],
       });
-  
+
       console.log("API response received:", response);
-  
+
       const rawContent = response.choices[0].message.content;
       console.log("Raw content received:", rawContent);
-  
+
       // Extract the JSON part using regex
       const jsonMatch = rawContent.match(/\{[\s\S]*\}/);
       if (!jsonMatch) {
         throw new Error("No valid JSON found in the response content.");
       }
-  
+
       const cleanedContent = jsonMatch[0];
       console.log("Cleaned content:", cleanedContent);
-  
+
       const flashcards = JSON.parse(cleanedContent);
       console.log("Parsed flashcards:", flashcards);
-  
+
       return NextResponse.json(flashcards.flashcards);
     } catch (error) {
       console.error("Error encountered:", error.message);
       return NextResponse.json({ error: error.message }, { status: 500 });
     }
   }
-  
+
