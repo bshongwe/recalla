@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { DM_Sans } from "next/font/google";
 import { ClerkProvider } from '@clerk/nextjs';
 import clsx from "clsx";
@@ -19,7 +20,10 @@ export default function RootLayout({
     return (
         <html lang="en">
         <ClerkProvider>
-            <body className={clsx(dmSans.className, "antialiased")}>{children}</body>
+            <body className={clsx(dmSans.className, "antialiased")}>
+              {children}
+              <Analytics />
+            </body>
         </ClerkProvider>
 
         </html>
