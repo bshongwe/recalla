@@ -1,3 +1,9 @@
+![Visits Badge](https://badges.pufler.dev/visits/bshongwe/recalla)
+![GitHub Repo Stars](https://img.shields.io/github/stars/bshongwe/recalla)
+![GitHub Forks](https://img.shields.io/github/forks/bshongwe/recalla)
+![GitHub Issues](https://img.shields.io/github/issues/bshongwe/recalla)
+![GitHub License](https://img.shields.io/github/license/bshongwe/recalla)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
